@@ -1,0 +1,41 @@
+body
+{
+	background-color: rgba(247,247,247);
+}
+#lcont
+{
+	display: flex;
+	flex-direction: row;
+}
+.logo
+{
+	display: flex;
+	border-radius: 12px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+	border-width: 4px;
+	background-color: rgba(0,0,0,0.4);
+	width: 4%;
+	margin: 8px;
+	padding: 4px;
+}
+.pretext
+{
+	border: 0px 0px black;
+	width: 40%;
+	padding: 8px
+}
+h1
+{
+	margin: 8px;
+}
+a
+{
+	margin: 8px;
+	text-decoration: none;
+	color: rgb(105,162,255);
+}
+a:hover
+{
+	text-decoration: underline;
+	color: rgb(60,113,199);
+}
